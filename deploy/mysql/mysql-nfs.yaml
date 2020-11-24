@@ -33,7 +33,7 @@ spec:
       volumes:
       - name: mysql-data
         nfs:
-          server: 172.17.79.3
+          server: 172.19.0.164
           path: /data/mysql
 ---
 apiVersion: v1
