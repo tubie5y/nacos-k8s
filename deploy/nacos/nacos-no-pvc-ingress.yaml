@@ -61,7 +61,8 @@ spec:
           image: nacos/nacos-server:latest
           resources:
             requests:
-              memory: "2Gi"
+#              memory: "2Gi"
+              memory: "1Gi"  # TODO: 测试环境资源不足修小点
               cpu: "500m"
           ports:
             - containerPort: 8848
