@@ -16,7 +16,7 @@ spec:
     - port: 7848
       name: rpc
       targetPort: 7848
-  clusterIP: None
+#  clusterIP: None # TODO: 注释掉本行，和上面重复了
   selector:
     app: nacos
 ---

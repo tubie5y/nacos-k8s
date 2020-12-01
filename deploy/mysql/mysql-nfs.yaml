@@ -33,7 +33,7 @@ spec:
       volumes:
       - name: mysql-data
         nfs:
-          server: 172.19.0.164
+          server: 172.19.0.164 # TODO: 修改为实际 NFS 地址
           path: /data/mysql
 ---
 apiVersion: v1
