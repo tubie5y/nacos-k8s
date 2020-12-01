@@ -25,11 +25,11 @@ kind: ConfigMap
 metadata:
   name: nacos-cm
 data:
-  mysql.host: "10.127.1.12"
-  mysql.db.name: "nacos_devtest"
+  mysql.host: "47.100.1.206"
+  mysql.db.name: "nacos"
   mysql.port: "3306"
   mysql.user: "nacos"
-  mysql.password: "passwd"
+  mysql.password: "nacos"
 ---
 apiVersion: apps/v1
 kind: StatefulSet
