@@ -125,7 +125,7 @@ metadata:
 
 spec:
   rules:
-  - host: nacos-web.nacos-demo.com
+  - host: k8s.yangxu88.com # TODO: 修改为绑定到ingress的真实域名
     http:
       paths:
       - path: /
