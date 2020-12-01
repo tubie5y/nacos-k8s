@@ -25,6 +25,7 @@ kind: ConfigMap
 metadata:
   name: nacos-cm
 data:
+  # TODO: 修改为实际mysql地址, 这里使用的是公网地址
   mysql.host: "47.100.1.206"
   mysql.db.name: "nacos"
   mysql.port: "3306"
