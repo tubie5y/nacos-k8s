@@ -62,8 +62,9 @@ spec:
           resources:
             requests:
 #              memory: "2Gi"
-              memory: "1Gi"  # TODO: 测试环境资源不足修小点
-              cpu: "500m"
+#              cpu: "500m"
+              memory: "500m" # TODO: 测试环境资源不足，调小一点
+              cpu: "256m" # TODO: 测试环境资源不足，调小一点
           ports:
             - containerPort: 8848
               name: client
