@@ -109,8 +109,8 @@ spec:
               value: "hostname"
             - name: NACOS_SERVERS
               # TODO: 如果上面的spec.replicas设置为1，这里修改为对应的1个服务，否则provider服务注册时报错
-              value: "nacos-0.nacos-headless.default.svc.cluster.local:8848 nacos-1.nacos-headless.default.svc.cluster.local:8848 nacos-2.nacos-headless.default.svc.cluster.local:8848"
-#              value: "nacos-0.nacos-headless.default.svc.cluster.local:8848"
+#              value: "nacos-0.nacos-headless.default.svc.cluster.local:8848 nacos-1.nacos-headless.default.svc.cluster.local:8848 nacos-2.nacos-headless.default.svc.cluster.local:8848"
+              value: "nacos-0.nacos-headless.default.svc.cluster.local:8848 nacos-1.nacos-headless.default.svc.cluster.local:8848"
   selector:
     matchLabels:
       app: nacos
